@@ -15,4 +15,5 @@ public class Car
     public string BigImageUrl { get; set; } = string.Empty;
     public List<CarFeature> CarFeatures { get; set; } = new List<CarFeature>();
     public List<CarDescription> CarDescriptions { get; set; } = new List<CarDescription>();
+    public List<CarPricing> CarPricings { get; set; } = new List<CarPricing>();
 }

@@ -4,6 +4,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7C97AC10-E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBook.Domain", "CarBook.Domain\CarBook.Domain.csproj", "{531FC655-1208-41C5-93FE-858A801DE14C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{DF55AF24-937F-4D70-9DD0-684C3A068DDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBook.Persistence", "CarBook.Persistence\CarBook.Persistence.csproj", "{D516ED76-CDD5-4E6F-B39C-8859DFBD5A8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{929015C1-B45E-4DB4-AB37-4B021C8762EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBook.WebApi", "CarBook.WebApi\CarBook.WebApi.csproj", "{3C1D24C8-78F6-4EF6-AAAE-B9AD3EE76DAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -11,11 +19,21 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{531FC655-1208-41C5-93FE-858A801DE14C} = {7C97AC10-E1B1-41BF-9A4E-A3DE17D3D52B}
+		{D516ED76-CDD5-4E6F-B39C-8859DFBD5A8B} = {DF55AF24-937F-4D70-9DD0-684C3A068DDE}
+		{3C1D24C8-78F6-4EF6-AAAE-B9AD3EE76DAA} = {929015C1-B45E-4DB4-AB37-4B021C8762EE}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{531FC655-1208-41C5-93FE-858A801DE14C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{531FC655-1208-41C5-93FE-858A801DE14C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{531FC655-1208-41C5-93FE-858A801DE14C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{531FC655-1208-41C5-93FE-858A801DE14C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D516ED76-CDD5-4E6F-B39C-8859DFBD5A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D516ED76-CDD5-4E6F-B39C-8859DFBD5A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D516ED76-CDD5-4E6F-B39C-8859DFBD5A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D516ED76-CDD5-4E6F-B39C-8859DFBD5A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C1D24C8-78F6-4EF6-AAAE-B9AD3EE76DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C1D24C8-78F6-4EF6-AAAE-B9AD3EE76DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C1D24C8-78F6-4EF6-AAAE-B9AD3EE76DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C1D24C8-78F6-4EF6-AAAE-B9AD3EE76DAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
