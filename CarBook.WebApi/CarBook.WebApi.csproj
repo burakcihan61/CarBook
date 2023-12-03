@@ -17,10 +17,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />
       <ProjectReference Include="..\CarBook.Persistence\CarBook.Persistence.csproj" />
     </ItemGroup>
