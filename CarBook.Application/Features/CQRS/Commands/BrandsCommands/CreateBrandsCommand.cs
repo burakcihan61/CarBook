@@ -6,5 +6,8 @@ using System.Threading.Tasks;
 
 namespace CarBook.Application.Features.CQRS.Commands.BrandsCommands
 {
-    public class CreateBrandsCommand { }
+    public class CreateBrandsCommand
+    {
+        public string Name { get; set; }
+    }
 }
