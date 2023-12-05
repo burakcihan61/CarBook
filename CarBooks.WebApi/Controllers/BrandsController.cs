@@ -52,21 +52,21 @@ namespace CarBooks.WebApi.Controllers
         public async Task<IActionResult> CreateBrand(CreateBrandsCommand command)
         {
             await _createBrandsCommandHandler.Handle(command);
-            return Ok("Hakkımda Bilgisi Eklendi");
+            return Ok("Brands Bilgisi Eklendi");
         }
 
         [HttpDelete]
         public async Task<IActionResult> RemoveBrand(int id)
         {
             await _removeBrandsCommandHandler.Handle(new RemoveBrandsCommand(id));
-            return Ok("Hakkımda Bilgisi Silindi");
+            return Ok("Brands Bilgisi Silindi");
         }
 
         [HttpPut]
         public async Task<IActionResult> UpdateAbout(UpdateBrandsCommand command)
         {
             await _updateBrandsCommandHandler.Handle(command);
-            return Ok("Hakkımda Bilgisi Güncellendi");
+            return Ok("Brands Bilgisi Güncellendi");
         }
     }
 }
