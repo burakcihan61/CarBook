@@ -1,5 +1,6 @@
 using CarBook.Application.Features.CQRS.Handlers.AboutHandlers;
 using CarBook.Application.Features.CQRS.Handlers.BannerHandlers;
+using CarBook.Application.Features.CQRS.Handlers.BrandsHandlers;
 using CarBook.Application.Interfaces;
 using CarBook.Persistence.Context;
 using CarBook.Persistence.Repositories;
@@ -26,6 +27,13 @@ builder.Services.AddScoped<GetBannerByIdQueryHandler>();
 builder.Services.AddScoped<CreateBannerCommandHandler>();
 builder.Services.AddScoped<UpdateBannerCommandHandler>();
 builder.Services.AddScoped<RemoveBannerCommandHandler>();
+
+// CQRS Handlers - Brands
+builder.Services.AddScoped<GetBrandsQueryHandler>();
+builder.Services.AddScoped<GetBrandsByIdQueryHandler>();
+builder.Services.AddScoped<CreateBrandsCommandHandler>();
+builder.Services.AddScoped<UpdateBrandsCommandHandler>();
+builder.Services.AddScoped<RemoveBrandsCommandHandler>();
 
 builder.Services.AddControllers();
 
