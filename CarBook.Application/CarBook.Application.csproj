@@ -10,11 +10,4 @@
     <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\CQRS\Commands\ContactCommands\" />
-    <Folder Include="Features\CQRS\Handlers\ContactHandlers\" />
-    <Folder Include="Features\CQRS\Queries\ContactQueries\" />
-    <Folder Include="Features\CQRS\Results\ContactResults\" />
-  </ItemGroup>
-
 </Project>
